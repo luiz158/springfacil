@@ -1,6 +1,6 @@
 {
-  "name": "Springfacil",
-  "tagline": "Projeto Spring Fácil",
+  "name": "Spring Fácil",
+  "tagline": "Compartilhando Conteúdo sobre Spring Framework de Forma Fácil de Descomplicada",
   "body": "# Projeto Spring Fácil\r\n\r\n- **SETUP**\r\n  \r\n  - *Criando e Configurando o Projeto*\r\n\r\n      * [Criando o Projeto com Maven](setup_create-project.md)\r\n      * [Configurando Dependencias](setup_maven-dependecies.md) \r\n      * [Configurando Spring Context com Estrutura Básica](setup_spring-context.md)\r\n  \r\n  - *Configurando o Template utilizando Tiles*\r\n\r\n      * [Configurando Bean ViewResolver](setup_create-bean-viewresolver.md)\r\n      * [Configurando Bean TilesConfigurer](setup_create-bean-tilesconfigurer.md)\r\n      * [Criando o arquivo de Configuração tiles.xml](setup_create-tiles-configuration.md)\r\n      * [Criando o Template em parte: master, header, footer](setup_create-template.md)  \r\n      * [Connfidurando Twitter Bootstrap](setup_configure-twitter-bootstrap.md)\r\n      * [Criando a Pagina Index](setup_create-page-index.md)\r\n      \r\n- **CRUD**\r\n\r\n      * [CRUD Produto](crud_produto.md)\r\n      * [CRUD Venda](crud_venda.md)\r\n\r\n- **TDD**\r\n      \r\n- **SECURITY**\r\n\r\n- **REST**\r\n\r\n- **AngularJS**\r\n\r\n    \r\n\r\n\r\n\r\n\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
