@@ -15,25 +15,30 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.text-small{
+  font-size: small;
+}
+
 .btn {
   display: inline-block;
+  font-size: x-small;
   margin-bottom: -2 rem;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
   border-width: 1px;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn + .btn {
     margin-left: 1rem; }
 
 .btn-bootstrap {
   display: inline-block;
-  padding: 3px 6px;
-  width: 100px;
+  padding: 2px 2px;
+  width: 150px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: small;
   font-weight: normal;
   line-height: 1.42857143;
   text-align: center;
@@ -48,11 +53,11 @@ a {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 .btn-bootstrap-sm > .btn {
   padding: 2px 5px;
-  font-size: 12px;
+  font-size: small;
   line-height: 0.5;
   border-radius: 5px;
 }
@@ -61,6 +66,13 @@ a {
   background-color: #2E70FC;
   border-color: #2E70FC;
 }
+.btn-bootstrap-success {
+  color: #fff;
+  background-color: #527c64;
+  border-color: #fff;
+  font-size: small;
+}
+
 .btn:hover {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
@@ -69,7 +81,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .btn {
-    padding: 0.15rem 1rem; } }
+    padding: 0.15rem 0.5rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
@@ -256,25 +268,34 @@ a {
     font-size: 1rem; } }
 
 .site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+  padding-top: 1rem;
+  margin-top: 1rem;
+  border-top: solid 1px #eff0f1;
+  text-align: center;
+  font-size: small;
+}
 
 .site-footer-owner {
   display: block;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: small;
+}
 
 .site-footer-credits {
-  color: #819198; }
+  color: #819198;
+  font-size: small;
+}
 
 @media screen and (min-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: small;
+  }
+}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .site-footer {
-    font-size: 1rem; } }
+    font-size: small; } }
 
 @media screen and (max-width: 42em) {
   .site-footer {
-    font-size: 0.9rem; } }
+    font-size: small; } }

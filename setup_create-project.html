@@ -17,13 +17,16 @@
       </h1>
       <h2 class="project-tagline">Compartilhando Conteúdo sobre Spring Framework de Forma Fácil de Descomplicada</h2>
 
-      <a href="index.html" class="btn">HOME</a>
-      <a href="index.html#setup" class="btn">SETUP</a>
-      <a href="index.html#crud" class="btn">CRUD</a>
-      <a href="index.html#tdd" class="btn">TDD</a>
-      <a href="index.html#security" class="btn">SECURITY</a>
-      <a href="index.html#angularjs" class="btn">ANGULARJS</a>
-      <a href="index.html#rest" class="btn">REST</a>
+      <a href="index.html" class="btn">Home</a>
+      <a href="#project" class="btn">Create Project</a>
+      <a href="#properties" class="btn">Maven Properties</a>
+      <a href="#dependencias" class="btn">Maven Dependencias</a>
+      <a href="#build" class="btn">Maven Build</a>
+      <a href="#applicationcontext" class="btn">ApplicationContext</a>
+      <a href="#webxml" class="btn">Web XML</a>
+      <a href="#index" class="btn">Index</a>
+      <a href="#mavenupdate" class="btn">Maven Update</a>
+      <a href="#runproject" class="btn">Run Project</a>
     </section>
 
     <section class="main-content">
@@ -34,7 +37,7 @@
         SETUP - Criando e Configurando o Projeto
       </h1>
 
-      <h3><u>Criando o Projeto utilizando Maven</u></h3>
+      <h3 id="project"><u>Criando o Projeto utilizando Maven</u></h3>
       <blockquote>
         File > New > Other
       </blockquote>
@@ -58,48 +61,56 @@
       </h3>
       <a href="https://raw.githubusercontent.com/fabianogoes/springfacil/master/pom.xml">/pom.xml</a>
 
-      <blockquote>Properties</blockquote>
+      <blockquote id="properties">Properties</blockquote>
       <img src="img/new-maven-project-properties.png" alt="Maven Properties" /><br/>
 
-      <blockquote>Dependencias</blockquote>
+      <blockquote id="dependencias">Dependencias</blockquote>
       <img src="img/new-maven-project-dependencies-servlet.png" alt="Maven Dependencies Servlet" /><br/>
       <img src="img/new-maven-project-dependencies-spring.png" alt="Maven Dependencies Spring" /><br/>
       <img src="img/new-maven-project-dependencies-slf4j.png" alt="Maven Dependencies SLF4j" /><br/>
       <img src="img/new-maven-project-dependencies-log4j.png" alt="Maven Dependencies Log4j" /><br/>
       <img src="img/new-maven-project-dependencies-aspectj-inject.png" alt="Maven Dependencies Aspectj Inject" /><br/>
 
-      <blockquote>Build</blockquote>
+      <blockquote id="build">Build</blockquote>
       <img src="img/new-maven-project-build.png" alt="Maven Build" /><br/>
 
-      <h3>
+      <h3 id="applicationcontext">
         <u>Configurando Spring Context com Estrutura Básica</u>
       </h3>
-      dentro do diretório <strong>WEB-INF</strong> criar o arquivo: <a href="#">applicationContext.xml</a>
-      <blockquote cite="http://">
+      dentro do diretório <strong>WEB-INF</strong> criar o arquivo: <a href="https://raw.githubusercontent.com/fabianogoes/springfacil/master/src/main/webapp/WEB-INF/applicationContext.xml">applicationContext.xml</a>
+      <blockquote>
         applicationContext.xml
       </blockquote>
       <img src="img/new-maven-project-applicationcontext.png" alt="Spring ApplicationContext" />
 
-      <h3>
+      <h3 id="webxml">
         <u>Criar web.xml</u>
       </h3>
       Criar a estrutura de pastas: <u>/src/main/webapp/WEB-INF/</u><br/>
-      dentro do diretório <strong>WEB-INF</strong> criar o arquivo: <a href="#">web.xml</a>
+      dentro do diretório <strong>WEB-INF</strong> criar o arquivo: <a href="https://raw.githubusercontent.com/fabianogoes/springfacil/master/src/main/webapp/WEB-INF/web.xml">web.xml</a>
       <blockquote>
         web.xml
       </blockquote>
       <img src="img/new-maven-project-webxml.png" alt="Web Descriptor" />
 
-      <h3>
+      <h3 id="index">
         <u>Criar o arquivo index.jsp</u>
       </h3>
-      dentro do diretório <strong>webapp</strong> criar o arquivo: <a href="#">index.jsp</a>
+      dentro do diretório <strong>webapp</strong> criar o arquivo: <a href="https://raw.githubusercontent.com/fabianogoes/springfacil/master/src/main/webapp/index.jsp">index.jsp</a>
       <blockquote>
         index.jsp
       </blockquote>
       <img src="img/new-maven-project-index.png" alt="Index JSP" />
 
-      <h3>
+      <h3 id="mavenupdate">
+        <u>Maven Update Project</u>
+      </h3>
+      <blockquote>
+          Clique de Direita no Projeto > Maven > Update Project
+      </blockquote>
+      <img src="img/new-maven-project-update-project.png" alt="Maven Update project" />
+
+      <h3 id="runproject">
         <u>Executando o Projeto</u>
       </h3>
       <img src="img/new-maven-project-run-as.png" alt="Run As" />
@@ -110,6 +121,17 @@
       <img src="img/new-maven-project-run-as-browser.png" alt="Run As Browser" />
 
       <footer class="site-footer">
+        <a href="index.html" class="text-small">Home</a>&nbsp;|&nbsp;
+        <a href="#project" class="text-small">Create Project</a>&nbsp;|&nbsp;
+        <a href="#properties" class="text-small">Maven Properties</a>&nbsp;|&nbsp;
+        <a href="#dependencias" class="text-small">Maven Dependencias</a>&nbsp;|&nbsp;
+        <a href="#build" class="text-small">Maven Build</a>&nbsp;|&nbsp;
+        <a href="#applicationcontext" class="text-small">ApplicationContext</a>&nbsp;|&nbsp;
+        <a href="#webxml" class="text-small">Web XML</a>&nbsp;|&nbsp;
+        <a href="#index" class="text-small">Index</a>&nbsp;|&nbsp;
+        <a href="#mavenupdate" class="text-small">Maven Update</a>&nbsp;|&nbsp;
+        <a href="#runproject" class="text-small">Run Project</a>
+        <br/><br/>
         <span class="site-footer-owner"><a href="https://github.com/fabianogoes/springfacil">Spring Fácil</a> is maintained by <a href="https://github.com/fabianogoes">fabianogoes</a>.</span>
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
