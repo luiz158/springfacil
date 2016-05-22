@@ -1,6 +1,10 @@
-.DS_Store
-/target/
 RemoteSystemsTempFiles/
-.metadata
+target/
+.settings/
 .metadata/
+.metadata
 .project
+.classpath
+.project
+
+
