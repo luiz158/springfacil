@@ -159,4 +159,5 @@
 		</plugins>
 	</build>
 
+	<name>springfacil</name>
 </project>
