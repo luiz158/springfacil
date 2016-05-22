@@ -31,9 +31,10 @@
         <a id="projeto-spring-fácil" class="anchor" href="#projeto-spring-f%C3%A1cil" aria-hidden="true">
           <span aria-hidden="true" class="octicon octicon-link"></span>
         </a>
-        Criando o Projeto utilizando Maven
+        SETUP - Criando e Configurando o Projeto
       </h1>
 
+      <h3><u>Criando o Projeto utilizando Maven</u></h3>
       <blockquote>
         File > New > Other
       </blockquote>
@@ -52,7 +53,11 @@
       </ul>
 
       <hr/>
-      <h3>Configurando pom.xml</h3>
+      <h3>
+        <u>Configurando Properties, Dependencias e Build</u>
+      </h3>
+      <a href="https://raw.githubusercontent.com/fabianogoes/springfacil/master/pom.xml">/pom.xml</a>
+
       <blockquote>Properties</blockquote>
       <img src="img/new-maven-project-properties.png" alt="Maven Properties" /><br/>
 
@@ -65,6 +70,44 @@
 
       <blockquote>Build</blockquote>
       <img src="img/new-maven-project-build.png" alt="Maven Build" /><br/>
+
+      <h3>
+        <u>Configurando Spring Context com Estrutura Básica</u>
+      </h3>
+      dentro do diretório <strong>WEB-INF</strong> criar o arquivo: <a href="#">applicationContext.xml</a>
+      <blockquote cite="http://">
+        applicationContext.xml
+      </blockquote>
+      <img src="img/new-maven-project-applicationcontext.png" alt="Spring ApplicationContext" />
+
+      <h3>
+        <u>Criar web.xml</u>
+      </h3>
+      Criar a estrutura de pastas: <u>/src/main/webapp/WEB-INF/</u><br/>
+      dentro do diretório <strong>WEB-INF</strong> criar o arquivo: <a href="#">web.xml</a>
+      <blockquote>
+        web.xml
+      </blockquote>
+      <img src="img/new-maven-project-webxml.png" alt="Web Descriptor" />
+
+      <h3>
+        <u>Criar o arquivo index.jsp</u>
+      </h3>
+      dentro do diretório <strong>webapp</strong> criar o arquivo: <a href="#">index.jsp</a>
+      <blockquote>
+        index.jsp
+      </blockquote>
+      <img src="img/new-maven-project-index.png" alt="Index JSP" />
+
+      <h3>
+        <u>Executando o Projeto</u>
+      </h3>
+      <img src="img/new-maven-project-run-as.png" alt="Run As" />
+
+      <blockquote cite="http://">
+        Resultado no Browser
+      </blockquote>
+      <img src="img/new-maven-project-run-as-browser.png" alt="Run As Browser" />
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/fabianogoes/springfacil">Spring Fácil</a> is maintained by <a href="https://github.com/fabianogoes">fabianogoes</a>.</span>
